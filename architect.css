@@ -77,10 +77,13 @@ nav li a{
     width: 100%;
 }
 
+/* main section style  */
 main{
     max-width: 1440px;
     margin: 0 auto;
 }
+
+/* teams section style  */
 .teams-container{
     margin-top: 80px;
     margin-left: 60px;
@@ -117,6 +120,64 @@ main{
 }
 .btn-teams{
     margin-left: 0;
+}
+
+/* feature section style  */
+.features-container{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+/* .features-content{
+    margin-right: 100px;
+} */
+.features-title{
+    color:  #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.features-describe{
+    margin-top: 10px;
+    color: #727272;
+    margin-bottom: 20px;
+    /* width: 586px; */
+}
+.feature-cards{
+    /* width: 586px; */
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.features-cards-describe{
+    color: #727272;
+    padding-top: 10px;
+}
+.features-img img{
+    height: 80%;
+    margin-left: 80px;
+}
+.experience{
+    padding: 40px;
+    width: 342px;
+    color: white;
+    border-radius: 8px;
+    background: #FF900E;
+    text-align: center;
+    position: relative;
+    top: -100px
+}
+.experience h2{
+    /* margin: 0 auto; */
+    font-weight: 700;
+    font-size: 3rem;
+    
+}
+.experience p{
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 /* responsive media query */
 /* for mobile device */
