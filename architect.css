@@ -38,7 +38,9 @@ nav li a{
     text-decoration: none;
     color: #424242;
 }
-
+li a:hover{
+    color: #FF900E;
+}
 
 /* banner section style  */
 
@@ -72,6 +74,9 @@ nav li a{
     background: #FF900E;
     border: none;
     color: #FFF;
+}
+.btn:hover{
+    background-color:brown;
 }
 .banner img{
     width: 100%;
@@ -129,9 +134,6 @@ main{
     justify-content: space-between;
     gap: 100px;
 }
-/* .features-content{
-    margin-right: 100px;
-} */
 .features-title{
     color:  #131313;
     font-size: 45px;
@@ -141,15 +143,18 @@ main{
     margin-top: 10px;
     color: #727272;
     margin-bottom: 20px;
-    /* width: 586px; */
 }
 .feature-cards{
-    /* width: 586px; */
     padding: 30px;
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     margin-bottom: 20px;
+    transition: 1s;
+}
+.feature-cards:hover{
+    transform: scale(1.1);
+    z-index: 2;
 }
 .features-cards-describe{
     color: #727272;
