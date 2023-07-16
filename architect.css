@@ -180,6 +180,29 @@ main{
     font-size: 1.5rem;
 }
 
+/* facts section style  */
+.facts-state{
+    display: flex;
+    justify-content: space-around;
+}
+.achive{
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* responsive media query */
 /* for mobile device */
