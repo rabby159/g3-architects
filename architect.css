@@ -179,10 +179,14 @@ main{
     font-weight: 500;
     font-size: 1.5rem;
 }
+
+
 /* responsive media query */
 /* for mobile device */
 @media screen and (max-width: 576px) {
-    .nav-content{
+    .nav-content,
+    .features-container
+    {
         flex-direction: column;
     }
     nav > ul{
@@ -204,10 +208,18 @@ main{
     .teams-content{
         padding-left: 25px;
     }
+    .features-img img{
+        display: none;
+    }
+    .experience{
+        width: 300px;
+    }
 }
 /* for tablet device */
 @media screen and (min-width: 577px) and (max-width:992px) {
-    .nav-content{
+    .nav-content,
+    .features-container
+    {
         flex-direction: column;
     }
     nav > ul{
@@ -228,5 +240,14 @@ main{
     }
     .teams-content{
         padding-left: 50px;
+    }
+    .features-content{
+        margin-left: 10px;
+    }
+    .features-img img{
+        display: none;
+    }
+    .experience{
+        margin-left: 220px;
     }
 }
