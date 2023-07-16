@@ -208,7 +208,8 @@ main{
 /* for mobile device */
 @media screen and (max-width: 576px) {
     .nav-content,
-    .features-container
+    .features-container,
+    .facts-state
     {
         flex-direction: column;
     }
@@ -231,11 +232,22 @@ main{
     .teams-content{
         padding-left: 25px;
     }
+    .features-content{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     .features-img img{
         display: none;
     }
     .experience{
         width: 300px;
+    }
+    .achive{
+        margin: 10px;
+    }
+    .facts-content{
+        margin-left: 15px;
+        margin-right: 10px;
     }
 }
 /* for tablet device */
@@ -272,5 +284,8 @@ main{
     }
     .experience{
         margin-left: 220px;
+    }
+    .achive{
+        margin: 10px;
     }
 }
