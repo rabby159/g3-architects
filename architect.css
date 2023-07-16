@@ -193,6 +193,19 @@ main{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.sponsor-container{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.sponsor-content{
+    margin-bottom: 50px;
+}
+.sponsor-company{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 100px; */
+
+}
 
 
 
