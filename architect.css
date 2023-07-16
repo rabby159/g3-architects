@@ -203,7 +203,6 @@ main{
 .sponsor-company{
     display: flex;
     justify-content: space-between;
-    /* margin-left: 100px; */
 
 }
 
@@ -222,7 +221,8 @@ main{
 @media screen and (max-width: 576px) {
     .nav-content,
     .features-container,
-    .facts-state
+    .facts-state,
+    .sponsor-company
     {
         flex-direction: column;
     }
@@ -262,6 +262,12 @@ main{
         margin-left: 15px;
         margin-right: 10px;
     }
+    .sponsor-company{
+        align-items: center;
+    }
+    .sponsor-company img{
+        width: 45%;
+    }
 }
 /* for tablet device */
 @media screen and (min-width: 577px) and (max-width:992px) {
@@ -300,5 +306,8 @@ main{
     }
     .achive{
         margin: 10px;
+    }
+    .sponsor-container{
+        margin-top: 50px;
     }
 }
